@@ -5,7 +5,8 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-
+var ifc = require("ifc-convert")
+// console.log(ifc(`uploads/test.ifc`,))
 var app = express();
 
 // view engine setup
